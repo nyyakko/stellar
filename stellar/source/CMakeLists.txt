@@ -1,6 +1,6 @@
 set(DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
-set(!PROJECT_TEMPLATE!_SourceFiles ${!PROJECT_TEMPLATE!_SourceFiles}
+set(stellar_SourceFiles ${stellar_SourceFiles}
     "${DIR}/Main.cpp"
 
     PARENT_SCOPE
